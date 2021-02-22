@@ -1,5 +1,5 @@
 
-# NYC_cab_efficiency
+# NYC Yellow Cab Efficiency 
 ---
 > Independent project to explore the impact of shared rides on the efficiency of NYC transit by using trip aggregation strategies on NYC Yellow Cab trip data. I provide an estimate of gained efficiency if we switch from traditional yellow cab rides to aggressive ride sharing strategies. My approach starts by defining an efficiency metric and an aggregation strategy and then I compare the distribution of efficiency of yellow cabs and ride shares across a range of spatial and temporal gradients within Manhattan.
 
@@ -47,11 +47,13 @@ jupyter notebook
 
 ![\textbf{Efficiency} = \frac{\textit{Passenger Displacement}}{\textit{cost}}
 ](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Ctextbf%7BEfficiency%7D+%3D+%5Cfrac%7B%5Ctextit%7BPassenger+Displacement%7D%7D%7B%5Ctextit%7Bcost%7D%7D%0A)
+
 ![\textbf{Passenger Displacement} = \mu_{\textit{distance Covered}} * \mu_{\textit{number Of Passengers}}](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Ctextbf%7BPassenger+Displacement%7D+%3D+%5Cmu_%7B%5Ctextit%7Bdistance+Covered%7D%7D+%2A+%5Cmu_%7B%5Ctextit%7Bnumber+Of+Passengers%7D%7D)
+
 ![\textbf{Cost} = \textit{(fuel Cost + social Carbon Cost) * miles + idle Time} + \textit{(driver Salary + oppotunity Cost) time} 
 ](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Ctextbf%7BCost%7D+%3D+%5Ctextit%7B%28fuel+Cost+%2B+social+Carbon+Cost%29+%2A+miles+%2B+idle+Time%7D+%2B+%5Ctextit%7B%28driver+Salary+%2B+oppotunity+Cost%29+time%7D+%0A)
 
-*for further details about the formula and my assumptions, see the notebook*
+*for further details about the formula and my assumptions, see the notebook.*
 
 ## Traffic maps preview
 
@@ -61,7 +63,9 @@ jupyter notebook
 ### Shared rides
 ![alt text](images/share_map.png)
 
-* Red lines are comparable to walkers when it comes to efficiency and green lines are comparable to bicycles.*
+*Red lines are comparable to walkers when it comes to efficiency and green lines are comparable to bicycles.*
+
+*Interactive versions of these maps are available in the notebook and its html version.*
 
 ## Efficiency through time
 ![alt text](images/efficiency_plot.png)
